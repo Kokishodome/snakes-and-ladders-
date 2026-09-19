@@ -1,11 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "TASA Explorer", sans-serif;
 }
 
 body {
     background-color: rgb(255, 113, 137);
-    font-family: "TASA Explorer", sans-serif;
 }
 
 h1 {
@@ -38,6 +38,7 @@ h2 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 676767667676767677676767676767676767767677676776767676767676767677676767676767676767676767676767676767677676767;
 }
 
 #playerPink {
@@ -53,4 +54,16 @@ h2 {
     bottom: 0%;
     width: 12%;
 
+}
+
+#clearGame {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(255, 144, 162);
+    color: white;
 }
